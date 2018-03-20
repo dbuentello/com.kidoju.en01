@@ -47,35 +47,34 @@
          */
         app.constants = {
             // The mobile application id corresponding to the app scheme in mongoDB
-            appId: '5aa7b81cb706873118ffb5b4',
+            appId: '5aa7b81cb706873118ffb5b6',
             // The application name
             appName: 'Kidoju',
             // TODO: logo to display in drawer...
             // The application scheme
-            appScheme: 'com.kidoju.mobile',
+            appScheme: 'com.kidoju.en01',
             // For app store ratings
             appStoreUrl: {
-                // TODO: these are all for testing with the twitter app
                 // ----------------------------------------------------------------------------------------
                 // For iOS, see:
                 // https://developer.apple.com/library/content/qa/qa1629/_index.html
                 // https://developer.apple.com/library/content/qa/qa1633/_index.html
                 // ios: 'itms-apps://itunes.apple.com/app/viewContentsUserReviews/id333903271?action=write-review',
                 // ios: 'itms-apps://itunes.apple.com/app/id333903271?action=write-review',
-                ios: 'itms-apps://itunes.apple.com/app/id1185442548?action=write-review',
+                ios: 'itms-apps://itunes.apple.com/app/id1361727514?action=write-review',
                 // ----------------------------------------------------------------------------------------
                 // For Android, see:
                 // https://developer.android.com/distribute/marketing-tools/linking-to-google-play.html
                 // android: 'market://details?id=com.twitter.android',
-                android: 'market://details?id=com.kidoju.mobile',
+                android: 'market://details?id=com.kidoju.en01',
                 // ----------------------------------------------------------------------------------------
                 // For Fire OS, see:
                 // https://developer.amazon.com/blogs/post/Tx3A1TVL67TB24B/Linking-To-the-Amazon-Appstore-for-Android.html
                 // 'amazon-fireos': 'amzn://apps/android?p=com.twitter.android',
-                'amazon-fireos': 'amzn://apps/android?p=com.kidoju.mobile',
+                'amazon-fireos': 'amzn://apps/android?p=com.kidoju.en01',
                 // ----------------------------------------------------------------------------------------
                 // For windows (untested)
-                windows: 'ms-windows-store://pdp/?ProductId=9wzdncrfj140'
+                windows: 'ms-windows-store://pdp/?ProductId=9wzdncrfj140' // TODO
             },
             // Google analytics
             gaTrackingId: 'UA-63281999-4',
@@ -84,12 +83,12 @@
             // Help system
             helpUrl: 'https://help.kidoju.com/', // TODO Add Mobile section
             // The authorId to search summaries from (until we support organizationId)
-            authorId: undefined, // '56d6ee31bc039c1a00062950',
+            authorId: '56d6ee31bc039c1a00062950',
             // The app language
-            language: undefined, // 'fr',
+            language: 'en', // 'fr',
             // The root categoryId
             rootCategoryId: {
-                en: undefined,
+                en: '000100030000000000000000',
                 // en: '000100010000000000000000', // General Knowledge
                 // en: '000100020000000000000000', // Reception
                 // en: '000100030000000000000000', // Year 1
